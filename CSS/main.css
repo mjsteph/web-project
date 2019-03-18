@@ -56,3 +56,18 @@ body {
   font-size: 15px;
   text-align: justify;
 }
+.banner-imageNHS {
+  background-image: url("./NHSbanner.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.NHSbanner {
+  background: rgba(0, 255, 255, 0.3);
+  margin: 0px 0px 0px 0px;
+  color: white;
+  padding: 100px;
+}
+.footer {
+  background: black;
+  padding: 20px;
+}
