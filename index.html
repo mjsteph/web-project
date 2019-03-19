@@ -13,34 +13,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <div class="menubar">
-      <ul>
-        <li>Take me home</li>
-        <li>About us</li>
-        <li>Get in touch</li>
-      </ul>
-    </div>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+      <a class="navbar-brand" href="#">WeCare</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Who we are
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Our mission</a>
+              <a class="dropdown-item" href="#">Our team</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Tell me about...
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">The NHS</a>
+              <a class="dropdown-item" href="#">Private Healthcare</a>
+            </div>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">EduHealth</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
     <div class="banner-image">
       <div class="banner">
-        <h1>Hello World</h1>
+        <h1>WeCare</h1>
         <p id="tag">When you don't know</p>
         <p id="line"><strong>We do.</strong></p>
       </div>
     </div>
-    <div class="body-one">
+    <div class="body-one bg-light">
       <p><strong>When it comes to our health, it can get confusing.</strong></p>
       <p>Where to go?</p>
       <p>Who to talk to?</p>
       <p>What to do?</p>
       <p>We're here to help.</p>
     </div>
-    <div class="banner-imageNHS">
-      <div class="NHSbanner">
-        <h1 class="nhs">The NHS</h1>
-        <h2 class="nhs_intro">Find out more...</h2>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div class="row">
+            <div class="banner-imageNHS">
+              <div class="NHSbanner">
+                <h1 class="nhs"><strong>The NHS</strong></h1>
+                <h2 class="nhs_intro">Find out more...</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="row">
+            <div class="banner-imagePrivate">
+              <div class="Privatebanner">
+                <h1 class="private"><strong>Private Healthcare</strong></h1>
+                <h2 class="private_intro">Find out more...</h2>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div><h1 class="private">Private Healthcare</h1></div>
-    <div class="footer"></div>
+    <div class="eduhealthbanner">
+      <div class="education">
+        <h1 class="EduHealth"><strong>The EduHealth Initiative</strong></h1>
+      </div>
+    </div>
+    <div class="news">
+      <h1 class="inthenews"><strong>In the News</strong></h1>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col"><p class="wecare">WeCare</p></div>
+          <div class="col-6">
+            <p>
+              WeCare Group, The Studios, 1 Avenue Road, London, S13 P2D, United
+              Kingdom
+            </p>
+            <p>Phone: +44 (0) 00 0000 0000, E-Mail: info@wecare.co.uk</p>
+          </div>
+          <div class="col">Social buttons Search bar</div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
