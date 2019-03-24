@@ -32,9 +32,10 @@ body {
   font-size: 30px;
 }
 .body-one {
+  position: relative;
   margin: 0px;
   padding: 100px;
-  height: 50vh;
+  height: 260px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -210,4 +211,47 @@ a {
 }
 .social-button:hover {
   color: #fdd741;
+}
+
+.carousel-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -20px;
+  margin: 0 auto;
+  max-width: 55%;
+  background-color: white;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  z-index: 1;
+}
+.carousel-item {
+  height: 300px;
+}
+.one {
+  background: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.two {
+  background: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  justify-content: center;
+}
+.three {
+  background: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  justify-content: center;
 }
