@@ -33,7 +33,11 @@ body {
 }
 .body-one {
   margin: 0px;
-  padding: 75px;
+  padding: 100px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .body-one p {
   color: grey;
@@ -55,6 +59,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+.NHSbanner:hover {
+  background: rgba(36, 180, 165, 1);
 }
 .banner-imagePrivate {
   background-image: url("./privatebanner.jpeg");
@@ -71,6 +80,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+.Privatebanner:hover {
+  background: rgba(143, 237, 194, 1);
 }
 .eduhealthbanner {
   background-image: url("./eduhealthbanner.jpeg");
@@ -85,6 +99,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+.education:hover {
+  background: rgba(22, 109, 138, 1);
 }
 .inthenews {
   padding: 100px;
@@ -103,4 +122,73 @@ body {
 }
 .wecare {
   font-size: 32px;
+}
+.about-banner {
+  background-image: url("./aboutbanner.jpeg");
+  background-size: cover;
+  background-position: center center;
+}
+.aboutbanner {
+  background: rgba(22, 109, 138, 0.8);
+  margin: 0px 0px 0px 0px;
+  color: white;
+  padding: 100px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+a {
+  font-size: 14px;
+  color: white;
+}
+.mission {
+  margin: 0px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: grey;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+.missionvid {
+  margin: 0px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: grey;
+  font-size: 24px;
+}
+.extracopy {
+  margin: 0px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: grey;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.bodycopy {
+  position: relative;
+}
+
+.offset-container-fluid {
+  padding-top: 40px;
+}
+
+.mission-banner {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -40px;
+  margin: 0 auto;
+  max-width: 75%;
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
 }
