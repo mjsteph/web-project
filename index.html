@@ -93,7 +93,7 @@
       </div>
     </div>
     <div class="body-one bg-light">
-      <div class="carousel-container">
+      <div class="carousel-container-mobile d-md-none">
         <div
           id="carouselExampleSlidesOnly"
           class="carousel slide"
@@ -101,30 +101,78 @@
         >
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="w-100 one">
+              <div class="w-100 slide-item-mobile">
                 <h5>When it comes to our health, it can get confusing</h5>
-                <p>We're here to help.</p>
+                <p>Who to ask? Where to go? What to do?</p>
+                <p>WeCare are here to help.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <div class="w-100 two">
+              <div class="w-100 slide-item-mobile">
                 <h5>
                   WeCare is an independent non-profit organisation with the aim
                   of educating the nation about healthcare
                 </h5>
                 <p>
-                  What types of healthcare we have, what they can do, and, more
-                  importantly, how to use them.
+                  What types of healthcare are available, what they can do, and,
+                  more importantly, how we should use them.
                 </p>
               </div>
             </div>
             <div class="carousel-item">
-              <div class="w-100 three">
+              <div class="w-100 slide-item-mobile">
                 <h5>
-                  We believe that to acheive equal healthcare for all, we need
-                  to know how to use it
+                  We believe that teaching others how to engage properly with
+                  the healthcare system is the first step to acheiving equal
+                  healthcare for all
                 </h5>
-                <p>Check out our EduHealth Initiative to learn more.</p>
+                <p>
+                  That's why we developed the EduHealth Initiative. Find out
+                  more below.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-container d-none d-md-block">
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="w-100 slide-item">
+                <h4>When it comes to our health, it can get confusing</h4>
+                <p>Who to ask? Where to go? What to do?</p>
+                <p>WeCare are here to help.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-100 slide-item">
+                <h4>
+                  WeCare is an independent non-profit organisation with the aim
+                  of educating the nation about healthcare
+                </h4>
+                <p>
+                  What types of healthcare are available, what they can do, and,
+                  more importantly, how we should use them.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-100 slide-item">
+                <h4>
+                  We believe that teaching others how to engage properly with
+                  the healthcare system is the first step to acheiving equal
+                  healthcare for all
+                </h4>
+                <p>
+                  That's why we developed the EduHealth Initiative. Find out
+                  more below.
+                </p>
               </div>
             </div>
           </div>
@@ -181,6 +229,11 @@
           >
         </div>
         <button type="submit" class="btn btn-dark">Submit</button>
+        <script>
+          $("button").on("click", function() {
+            alert("Thank you for subscribing to the WeCare newsletter!");
+          });
+        </script>
       </form>
     </div>
     <div class="footer">
